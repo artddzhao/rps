@@ -1,4 +1,4 @@
-function getComputerChoce() {
+function getComputerChoice() {
     let randomNum = Math.random()*100
     let randomWholeNum = Math.round(randomNum)
     if (randomWholeNum<=33){
@@ -9,4 +9,4 @@ function getComputerChoce() {
         return "Scissors"
     }
 }
-console.log(getComputerChoce())
+console.log(getComputerChoice())

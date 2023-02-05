@@ -3,7 +3,8 @@ let computerSelection
 
 let playerSelection
 
-function playRound(playerSelection, computerSelection) {getComputerChoice()
+function playRound(playerSelection, computerSelection) {
+    getComputerChoice()
     function getComputerChoice() {
         let randomNum = Math.random()*100
         let randomWholeNum = Math.round(randomNum)
